@@ -1,7 +1,96 @@
-*{
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
   margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Lato;
 }
-body{
-  background-color: #E5E5E5;
+
+section#content{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
+
+section#wallpaper{
+  background-color: #f7fafc;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#form{
+  background-color:#fff;
+  width: 50%;
+}
+
+div#form-content h1{
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A202C;
+}
+
+div#form-content h2{
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #1A202C;
+}
+
+.label-box{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.input-box{
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.pass{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+div#remember label{
+  color: #1A202C;
+}
+
+div#forgot-pass a {
+  color: #2B6CB0;
+}
+
+button#login{
+  background: #04C45C;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button#google-login{
+  background: #1A202C;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button-text{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+

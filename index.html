@@ -10,10 +10,59 @@
 </head>
 
 <body>
+  <header>
 
-  <div class="wallpaper">
-    <img src="./assets/img/wallpaper.png" alt="wallpaper">
-  </div>
+  </header>
+
+  <main>
+    <section id="content">
+
+      <section id="wallpaper">
+        <img src="./assets/img/wallpaper.png" alt="wallpaper">
+      </section>
+      
+      <section id="form">
+        <div id="form-content">
+          <h1>Bem vindo de volta</h1>
+          <h2>Faça login na sua conta</h2>
+          <form action="" id="login-form">
+            <label class="label-box">E-mail</label>
+            <input type="email" class="input-box" name="email" id="email" placeholder="codelandia@gmail.com">
+            <label class="label-box">Senha</label>
+            <input type="password" class="input-box" name="password" id="password" placeholder="**********">
+
+            <div id="remember" >
+              <input type="radio" id="remember-radio">
+              <label class="pass">Lembre de mim</label>
+            </div>
+            <div id="forgot-pass">
+              <a href="#" class="pass">Esqueceu sua senha?</a>
+            </div>
+            <div id="buttons">
+              <button id="login" class="button-text">Entrar</button>
+              <button id="google-login" class="button-text">
+                <figure>
+                  <img src="" alt="">
+                  <figcaption>Ou faça login com o Google</figcaption>
+                </figure>
+              </button>
+
+            </div>
+          </form>
+
+          <span class="button-text">
+            Não tem uma conta?
+            <a href="#">Cadastre-se</a>
+          </span>
+        </div>
+      </section>
+
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
 
 </body>
 
