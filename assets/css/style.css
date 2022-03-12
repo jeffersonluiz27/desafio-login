@@ -8,7 +8,7 @@
 }
 
 section#content{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -145,4 +145,26 @@ div#buttons{
   position: fixed;
   bottom: 0;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px){
+  section#content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#wallpaper{
+    margin-bottom: 50px;
+  }
+
+  #footer{
+    position:relative;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+  }
+
+  div#form-content{
+    width:330px;
+  }
 }
