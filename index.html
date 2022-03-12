@@ -10,9 +10,6 @@
 </head>
 
 <body>
-  <header>
-
-  </header>
 
   <main>
     <section id="content">
@@ -30,39 +27,41 @@
             <input type="email" class="input-box" name="email" id="email" placeholder="codelandia@gmail.com">
             <label class="label-box">Senha</label>
             <input type="password" class="input-box" name="password" id="password" placeholder="**********">
+            
+            <div id="pass-remember">
+              <div id="remember">
+                <input type="radio" id="remember-radio">
+                <label class="pass">Lembre de mim</label>
+              </div>
+              <div id="forgot-pass">
+                <a href="#" class="pass">Esqueceu sua senha?</a>
+              </div>
+            </div>
 
-            <div id="remember" >
-              <input type="radio" id="remember-radio">
-              <label class="pass">Lembre de mim</label>
-            </div>
-            <div id="forgot-pass">
-              <a href="#" class="pass">Esqueceu sua senha?</a>
-            </div>
             <div id="buttons">
               <button id="login" class="button-text">Entrar</button>
               <button id="google-login" class="button-text">
-                <figure>
-                  <img src="" alt="">
+                <figure id="fig-google">
+                  <img src="./assets/img/iconfinder_Google_1298745 1.png" alt="">
                   <figcaption>Ou faça login com o Google</figcaption>
                 </figure>
               </button>
 
             </div>
           </form>
+        </div>
 
-          <span class="button-text">
+        <div id="footer">
+          <p id="footer-text">
             Não tem uma conta?
             <a href="#">Cadastre-se</a>
-          </span>
+          </p>
         </div>
+        
       </section>
 
     </section>
   </main>
-
-  <footer>
-
-  </footer>
 
 </body>
 
